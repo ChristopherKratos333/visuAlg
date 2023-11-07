@@ -10,7 +10,12 @@ cont: inteiro
 Inicio
 cont <- 0
 
-enquantox
+enquanto ( cont <= 20 ) faca
+         se ( cont % 2 = 1 ) entao
+            escreval(cont)
+         fimse
+         cont <- cont + 1
+fimenquanto
 
 
 
